@@ -122,7 +122,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(800, 493);
             this.Controls.Add(this.zahl6);
             this.Controls.Add(this.zahl5);
             this.Controls.Add(this.zahl4);
@@ -130,8 +130,10 @@
             this.Controls.Add(this.zahl2);
             this.Controls.Add(this.zahl1);
             this.Controls.Add(this.ausloser);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
