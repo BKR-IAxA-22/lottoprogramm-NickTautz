@@ -15,6 +15,7 @@ namespace Lottoprogramm
         public Form1()
         {
             InitializeComponent();
+           
         }
         int[] zahlen = new int[6];
         Random random = new Random();
@@ -32,7 +33,7 @@ namespace Lottoprogramm
             zahl4.Text = Convert.ToString(zahlen[3]);
             zahl5.Text = Convert.ToString(zahlen[4]);
             zahl6.Text = Convert.ToString(zahlen[5]);
-
+            
         }
 
         private void zahl1_TextChanged(object sender, EventArgs e)
@@ -67,7 +68,11 @@ namespace Lottoprogramm
 
         private void Form1_Load(object sender, EventArgs e)
         {
-           
+          
+
+
         }
+    
     }
+   
 }

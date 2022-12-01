@@ -45,7 +45,7 @@
             this.ausloser.Font = new System.Drawing.Font("Arial Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ausloser.Location = new System.Drawing.Point(271, 118);
             this.ausloser.Name = "ausloser";
-            this.ausloser.Size = new System.Drawing.Size(250, 64);
+            this.ausloser.Size = new System.Drawing.Size(250, 74);
             this.ausloser.TabIndex = 6;
             this.ausloser.Text = "Lottozahlen auslosen";
             this.ausloser.UseVisualStyleBackColor = false;
@@ -54,6 +54,7 @@
             // zahl1
             // 
             this.zahl1.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.zahl1.Cursor = System.Windows.Forms.Cursors.No;
             this.zahl1.Font = new System.Drawing.Font("Arial Black", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.zahl1.Location = new System.Drawing.Point(119, 256);
             this.zahl1.Name = "zahl1";
@@ -66,6 +67,7 @@
             // zahl2
             // 
             this.zahl2.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.zahl2.Cursor = System.Windows.Forms.Cursors.No;
             this.zahl2.Font = new System.Drawing.Font("Arial Black", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.zahl2.Location = new System.Drawing.Point(214, 256);
             this.zahl2.Name = "zahl2";
@@ -78,6 +80,7 @@
             // zahl3
             // 
             this.zahl3.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.zahl3.Cursor = System.Windows.Forms.Cursors.No;
             this.zahl3.Font = new System.Drawing.Font("Arial Black", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.zahl3.Location = new System.Drawing.Point(307, 256);
             this.zahl3.Name = "zahl3";
@@ -90,6 +93,7 @@
             // zahl4
             // 
             this.zahl4.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.zahl4.Cursor = System.Windows.Forms.Cursors.No;
             this.zahl4.Font = new System.Drawing.Font("Arial Black", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.zahl4.Location = new System.Drawing.Point(399, 256);
             this.zahl4.Name = "zahl4";
@@ -102,6 +106,7 @@
             // zahl5
             // 
             this.zahl5.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.zahl5.Cursor = System.Windows.Forms.Cursors.No;
             this.zahl5.Font = new System.Drawing.Font("Arial Black", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.zahl5.Location = new System.Drawing.Point(488, 256);
             this.zahl5.Name = "zahl5";
@@ -114,6 +119,7 @@
             // zahl6
             // 
             this.zahl6.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.zahl6.Cursor = System.Windows.Forms.Cursors.No;
             this.zahl6.Font = new System.Drawing.Font("Arial Black", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.zahl6.Location = new System.Drawing.Point(581, 256);
             this.zahl6.Name = "zahl6";
@@ -136,6 +142,7 @@
             this.Controls.Add(this.zahl2);
             this.Controls.Add(this.zahl1);
             this.Controls.Add(this.ausloser);
+            this.Cursor = System.Windows.Forms.Cursors.Cross;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.Text = "Form1";
