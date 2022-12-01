@@ -16,38 +16,38 @@ namespace Lottoprogramm
         {
             InitializeComponent();
         }
-        
+        int[] zahlen = new int[6];
         private void ausloser_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void zahl1_Click(object sender, EventArgs e)
+        private void zahl1_TextChanged(object sender, EventArgs e)
         {
 
         }
 
-        private void zahl2_Click(object sender, EventArgs e)
+        private void zahl2_TextChanged(object sender, EventArgs e)
         {
 
         }
 
-        private void zahl3_Click(object sender, EventArgs e)
+        private void zahl3_TextChanged(object sender, EventArgs e)
         {
 
         }
 
-        private void zahl4_Click(object sender, EventArgs e)
+        private void zahl4_TextChanged(object sender, EventArgs e)
         {
 
         }
 
-        private void zahl5_Click(object sender, EventArgs e)
+        private void zahl5_TextChanged(object sender, EventArgs e)
         {
 
         }
 
-        private void zahl6_Click(object sender, EventArgs e)
+        private void zahl6_TextChanged(object sender, EventArgs e)
         {
 
         }

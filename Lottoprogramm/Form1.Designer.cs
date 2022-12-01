@@ -29,74 +29,14 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            this.zahl1 = new System.Windows.Forms.Button();
-            this.zahl2 = new System.Windows.Forms.Button();
-            this.zahl3 = new System.Windows.Forms.Button();
-            this.zahl4 = new System.Windows.Forms.Button();
-            this.zahl5 = new System.Windows.Forms.Button();
-            this.zahl6 = new System.Windows.Forms.Button();
             this.ausloser = new System.Windows.Forms.Button();
+            this.zahl1 = new System.Windows.Forms.TextBox();
+            this.zahl2 = new System.Windows.Forms.TextBox();
+            this.zahl3 = new System.Windows.Forms.TextBox();
+            this.zahl4 = new System.Windows.Forms.TextBox();
+            this.zahl5 = new System.Windows.Forms.TextBox();
+            this.zahl6 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
-            // 
-            // zahl1
-            // 
-            this.zahl1.BackColor = System.Drawing.SystemColors.ButtonShadow;
-            this.zahl1.Location = new System.Drawing.Point(115, 283);
-            this.zahl1.Name = "zahl1";
-            this.zahl1.Size = new System.Drawing.Size(114, 41);
-            this.zahl1.TabIndex = 0;
-            this.zahl1.UseVisualStyleBackColor = false;
-            this.zahl1.Click += new System.EventHandler(this.zahl1_Click);
-            // 
-            // zahl2
-            // 
-            this.zahl2.BackColor = System.Drawing.SystemColors.ButtonShadow;
-            this.zahl2.Location = new System.Drawing.Point(235, 283);
-            this.zahl2.Name = "zahl2";
-            this.zahl2.Size = new System.Drawing.Size(98, 42);
-            this.zahl2.TabIndex = 1;
-            this.zahl2.UseVisualStyleBackColor = false;
-            this.zahl2.Click += new System.EventHandler(this.zahl2_Click);
-            // 
-            // zahl3
-            // 
-            this.zahl3.BackColor = System.Drawing.SystemColors.ButtonShadow;
-            this.zahl3.Location = new System.Drawing.Point(339, 283);
-            this.zahl3.Name = "zahl3";
-            this.zahl3.Size = new System.Drawing.Size(88, 41);
-            this.zahl3.TabIndex = 2;
-            this.zahl3.UseVisualStyleBackColor = false;
-            this.zahl3.Click += new System.EventHandler(this.zahl3_Click);
-            // 
-            // zahl4
-            // 
-            this.zahl4.BackColor = System.Drawing.SystemColors.ButtonShadow;
-            this.zahl4.Location = new System.Drawing.Point(433, 283);
-            this.zahl4.Name = "zahl4";
-            this.zahl4.Size = new System.Drawing.Size(84, 42);
-            this.zahl4.TabIndex = 3;
-            this.zahl4.UseVisualStyleBackColor = false;
-            this.zahl4.Click += new System.EventHandler(this.zahl4_Click);
-            // 
-            // zahl5
-            // 
-            this.zahl5.BackColor = System.Drawing.SystemColors.ButtonShadow;
-            this.zahl5.Location = new System.Drawing.Point(523, 283);
-            this.zahl5.Name = "zahl5";
-            this.zahl5.Size = new System.Drawing.Size(86, 41);
-            this.zahl5.TabIndex = 4;
-            this.zahl5.UseVisualStyleBackColor = false;
-            this.zahl5.Click += new System.EventHandler(this.zahl5_Click);
-            // 
-            // zahl6
-            // 
-            this.zahl6.BackColor = System.Drawing.SystemColors.ButtonShadow;
-            this.zahl6.Location = new System.Drawing.Point(615, 283);
-            this.zahl6.Name = "zahl6";
-            this.zahl6.Size = new System.Drawing.Size(91, 41);
-            this.zahl6.TabIndex = 5;
-            this.zahl6.UseVisualStyleBackColor = false;
-            this.zahl6.Click += new System.EventHandler(this.zahl6_Click);
             // 
             // ausloser
             // 
@@ -111,33 +51,100 @@
             this.ausloser.UseVisualStyleBackColor = false;
             this.ausloser.Click += new System.EventHandler(this.ausloser_Click);
             // 
+            // zahl1
+            // 
+            this.zahl1.BackColor = System.Drawing.SystemColors.WindowFrame;
+            this.zahl1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.zahl1.Location = new System.Drawing.Point(135, 257);
+            this.zahl1.Name = "zahl1";
+            this.zahl1.ReadOnly = true;
+            this.zahl1.Size = new System.Drawing.Size(78, 27);
+            this.zahl1.TabIndex = 7;
+            this.zahl1.TextChanged += new System.EventHandler(this.zahl1_TextChanged);
+            // 
+            // zahl2
+            // 
+            this.zahl2.BackColor = System.Drawing.SystemColors.WindowFrame;
+            this.zahl2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.zahl2.Location = new System.Drawing.Point(230, 257);
+            this.zahl2.Name = "zahl2";
+            this.zahl2.ReadOnly = true;
+            this.zahl2.Size = new System.Drawing.Size(71, 27);
+            this.zahl2.TabIndex = 8;
+            this.zahl2.TextChanged += new System.EventHandler(this.zahl2_TextChanged);
+            // 
+            // zahl3
+            // 
+            this.zahl3.BackColor = System.Drawing.SystemColors.WindowFrame;
+            this.zahl3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.zahl3.Location = new System.Drawing.Point(319, 257);
+            this.zahl3.Name = "zahl3";
+            this.zahl3.ReadOnly = true;
+            this.zahl3.Size = new System.Drawing.Size(64, 27);
+            this.zahl3.TabIndex = 9;
+            this.zahl3.TextChanged += new System.EventHandler(this.zahl3_TextChanged);
+            // 
+            // zahl4
+            // 
+            this.zahl4.BackColor = System.Drawing.SystemColors.WindowFrame;
+            this.zahl4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.zahl4.Location = new System.Drawing.Point(413, 257);
+            this.zahl4.Name = "zahl4";
+            this.zahl4.ReadOnly = true;
+            this.zahl4.Size = new System.Drawing.Size(68, 27);
+            this.zahl4.TabIndex = 10;
+            this.zahl4.TextChanged += new System.EventHandler(this.zahl4_TextChanged);
+            // 
+            // zahl5
+            // 
+            this.zahl5.BackColor = System.Drawing.SystemColors.WindowFrame;
+            this.zahl5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.zahl5.Location = new System.Drawing.Point(499, 257);
+            this.zahl5.Name = "zahl5";
+            this.zahl5.ReadOnly = true;
+            this.zahl5.Size = new System.Drawing.Size(74, 27);
+            this.zahl5.TabIndex = 11;
+            this.zahl5.TextChanged += new System.EventHandler(this.zahl5_TextChanged);
+            // 
+            // zahl6
+            // 
+            this.zahl6.BackColor = System.Drawing.SystemColors.WindowFrame;
+            this.zahl6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.zahl6.Location = new System.Drawing.Point(598, 257);
+            this.zahl6.Name = "zahl6";
+            this.zahl6.ReadOnly = true;
+            this.zahl6.Size = new System.Drawing.Size(62, 27);
+            this.zahl6.TabIndex = 12;
+            this.zahl6.TextChanged += new System.EventHandler(this.zahl6_TextChanged);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.ausloser);
             this.Controls.Add(this.zahl6);
             this.Controls.Add(this.zahl5);
             this.Controls.Add(this.zahl4);
             this.Controls.Add(this.zahl3);
             this.Controls.Add(this.zahl2);
             this.Controls.Add(this.zahl1);
+            this.Controls.Add(this.ausloser);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.Button zahl1;
-        private System.Windows.Forms.Button zahl2;
-        private System.Windows.Forms.Button zahl3;
-        private System.Windows.Forms.Button zahl4;
-        private System.Windows.Forms.Button zahl5;
-        private System.Windows.Forms.Button zahl6;
         private System.Windows.Forms.Button ausloser;
+        private System.Windows.Forms.TextBox zahl1;
+        private System.Windows.Forms.TextBox zahl2;
+        private System.Windows.Forms.TextBox zahl3;
+        private System.Windows.Forms.TextBox zahl4;
+        private System.Windows.Forms.TextBox zahl5;
+        private System.Windows.Forms.TextBox zahl6;
     }
 }
 
