@@ -42,7 +42,7 @@
             // 
             this.ausloser.BackColor = System.Drawing.SystemColors.ButtonShadow;
             this.ausloser.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("ausloser.BackgroundImage")));
-            this.ausloser.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ausloser.Font = new System.Drawing.Font("Arial Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ausloser.Location = new System.Drawing.Point(271, 118);
             this.ausloser.Name = "ausloser";
             this.ausloser.Size = new System.Drawing.Size(250, 64);
@@ -53,68 +53,74 @@
             // 
             // zahl1
             // 
-            this.zahl1.BackColor = System.Drawing.SystemColors.WindowFrame;
-            this.zahl1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.zahl1.Location = new System.Drawing.Point(135, 257);
+            this.zahl1.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.zahl1.Font = new System.Drawing.Font("Arial Black", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.zahl1.Location = new System.Drawing.Point(119, 256);
             this.zahl1.Name = "zahl1";
             this.zahl1.ReadOnly = true;
-            this.zahl1.Size = new System.Drawing.Size(78, 27);
+            this.zahl1.Size = new System.Drawing.Size(80, 31);
             this.zahl1.TabIndex = 7;
+            this.zahl1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.zahl1.TextChanged += new System.EventHandler(this.zahl1_TextChanged);
             // 
             // zahl2
             // 
-            this.zahl2.BackColor = System.Drawing.SystemColors.WindowFrame;
-            this.zahl2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.zahl2.Location = new System.Drawing.Point(230, 257);
+            this.zahl2.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.zahl2.Font = new System.Drawing.Font("Arial Black", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.zahl2.Location = new System.Drawing.Point(214, 256);
             this.zahl2.Name = "zahl2";
             this.zahl2.ReadOnly = true;
-            this.zahl2.Size = new System.Drawing.Size(71, 27);
+            this.zahl2.Size = new System.Drawing.Size(80, 31);
             this.zahl2.TabIndex = 8;
+            this.zahl2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.zahl2.TextChanged += new System.EventHandler(this.zahl2_TextChanged);
             // 
             // zahl3
             // 
-            this.zahl3.BackColor = System.Drawing.SystemColors.WindowFrame;
-            this.zahl3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.zahl3.Location = new System.Drawing.Point(319, 257);
+            this.zahl3.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.zahl3.Font = new System.Drawing.Font("Arial Black", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.zahl3.Location = new System.Drawing.Point(307, 256);
             this.zahl3.Name = "zahl3";
             this.zahl3.ReadOnly = true;
-            this.zahl3.Size = new System.Drawing.Size(64, 27);
+            this.zahl3.Size = new System.Drawing.Size(80, 31);
             this.zahl3.TabIndex = 9;
+            this.zahl3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.zahl3.TextChanged += new System.EventHandler(this.zahl3_TextChanged);
             // 
             // zahl4
             // 
-            this.zahl4.BackColor = System.Drawing.SystemColors.WindowFrame;
-            this.zahl4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.zahl4.Location = new System.Drawing.Point(413, 257);
+            this.zahl4.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.zahl4.Font = new System.Drawing.Font("Arial Black", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.zahl4.Location = new System.Drawing.Point(399, 256);
             this.zahl4.Name = "zahl4";
             this.zahl4.ReadOnly = true;
-            this.zahl4.Size = new System.Drawing.Size(68, 27);
+            this.zahl4.Size = new System.Drawing.Size(80, 31);
             this.zahl4.TabIndex = 10;
+            this.zahl4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.zahl4.TextChanged += new System.EventHandler(this.zahl4_TextChanged);
             // 
             // zahl5
             // 
-            this.zahl5.BackColor = System.Drawing.SystemColors.WindowFrame;
-            this.zahl5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.zahl5.Location = new System.Drawing.Point(499, 257);
+            this.zahl5.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.zahl5.Font = new System.Drawing.Font("Arial Black", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.zahl5.Location = new System.Drawing.Point(488, 256);
             this.zahl5.Name = "zahl5";
             this.zahl5.ReadOnly = true;
-            this.zahl5.Size = new System.Drawing.Size(74, 27);
+            this.zahl5.Size = new System.Drawing.Size(80, 31);
             this.zahl5.TabIndex = 11;
+            this.zahl5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.zahl5.TextChanged += new System.EventHandler(this.zahl5_TextChanged);
             // 
             // zahl6
             // 
-            this.zahl6.BackColor = System.Drawing.SystemColors.WindowFrame;
-            this.zahl6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.zahl6.Location = new System.Drawing.Point(598, 257);
+            this.zahl6.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.zahl6.Font = new System.Drawing.Font("Arial Black", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.zahl6.Location = new System.Drawing.Point(581, 256);
             this.zahl6.Name = "zahl6";
             this.zahl6.ReadOnly = true;
-            this.zahl6.Size = new System.Drawing.Size(62, 27);
+            this.zahl6.Size = new System.Drawing.Size(80, 31);
             this.zahl6.TabIndex = 12;
+            this.zahl6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.zahl6.TextChanged += new System.EventHandler(this.zahl6_TextChanged);
             // 
             // Form1

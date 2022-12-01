@@ -24,8 +24,14 @@ namespace Lottoprogramm
            
             for (int i = 0; i < zahlen.Length; i++)
             {
-                zahlen[i] = random.Next(0,49);
+                zahlen[i] = random.Next(1,49);
             }
+            zahl1.Text = Convert.ToString(zahlen[0]);
+            zahl2.Text = Convert.ToString(zahlen[1]);
+            zahl3.Text = Convert.ToString(zahlen[2]);
+            zahl4.Text = Convert.ToString(zahlen[3]);
+            zahl5.Text = Convert.ToString(zahlen[4]);
+            zahl6.Text = Convert.ToString(zahlen[5]);
 
         }
 
@@ -61,12 +67,7 @@ namespace Lottoprogramm
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            zahl1.Text = Convert.ToString(zahlen[0]);
-            zahl2.Text = Convert.ToString(zahlen[1]);
-            zahl3.Text = Convert.ToString(zahlen[2]);
-            zahl4.Text = Convert.ToString(zahlen[3]);
-            zahl5.Text = Convert.ToString(zahlen[4]);
-            zahl6.Text = Convert.ToString(zahlen[5]);
+           
         }
     }
 }
