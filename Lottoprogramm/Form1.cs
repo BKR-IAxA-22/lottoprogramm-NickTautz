@@ -16,5 +16,40 @@ namespace Lottoprogramm
         {
             InitializeComponent();
         }
+        
+        private void ausloser_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void zahl1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void zahl2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void zahl3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void zahl4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void zahl5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void zahl6_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
