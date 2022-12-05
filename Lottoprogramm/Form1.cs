@@ -25,8 +25,16 @@ namespace Lottoprogramm
            
             for (int i = 0; i < zahlen.Length; i++)
             {
-                zahlen[i] = random.Next(1,49);
                 
+                int x = random.Next(1,49);
+                if (zahlen.Contains(x))
+                {
+                    i--;
+                }
+                else
+                {
+                    zahlen[i] = x;  
+                }
             }
 
             zahl1.Text = Convert.ToString(zahlen[0]);
