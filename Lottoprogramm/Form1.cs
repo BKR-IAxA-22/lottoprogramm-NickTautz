@@ -26,7 +26,9 @@ namespace Lottoprogramm
             for (int i = 0; i < zahlen.Length; i++)
             {
                 zahlen[i] = random.Next(1,49);
+                
             }
+
             zahl1.Text = Convert.ToString(zahlen[0]);
             zahl2.Text = Convert.ToString(zahlen[1]);
             zahl3.Text = Convert.ToString(zahlen[2]);
@@ -72,7 +74,36 @@ namespace Lottoprogramm
 
 
         }
-    
+
+        private void eingabe_zahl1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void eingabe_zahl2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void eingabe_zahl3_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void eingabe_zahl4_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void eingabe_zahl5_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void eingabe_zahl6_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
    
 }
