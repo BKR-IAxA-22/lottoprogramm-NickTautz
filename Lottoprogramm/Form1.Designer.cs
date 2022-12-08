@@ -60,7 +60,7 @@
             // 
             // zahl1
             // 
-            this.zahl1.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.zahl1.BackColor = System.Drawing.Color.Blue;
             this.zahl1.Cursor = System.Windows.Forms.Cursors.No;
             this.zahl1.Font = new System.Drawing.Font("Arial Black", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.zahl1.Location = new System.Drawing.Point(119, 188);
@@ -73,7 +73,7 @@
             // 
             // zahl2
             // 
-            this.zahl2.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.zahl2.BackColor = System.Drawing.Color.Blue;
             this.zahl2.Cursor = System.Windows.Forms.Cursors.No;
             this.zahl2.Font = new System.Drawing.Font("Arial Black", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.zahl2.Location = new System.Drawing.Point(214, 188);
@@ -86,7 +86,7 @@
             // 
             // zahl3
             // 
-            this.zahl3.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.zahl3.BackColor = System.Drawing.Color.Blue;
             this.zahl3.Cursor = System.Windows.Forms.Cursors.No;
             this.zahl3.Font = new System.Drawing.Font("Arial Black", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.zahl3.Location = new System.Drawing.Point(307, 188);
@@ -99,7 +99,7 @@
             // 
             // zahl4
             // 
-            this.zahl4.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.zahl4.BackColor = System.Drawing.Color.Blue;
             this.zahl4.Cursor = System.Windows.Forms.Cursors.No;
             this.zahl4.Font = new System.Drawing.Font("Arial Black", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.zahl4.Location = new System.Drawing.Point(399, 188);
@@ -112,7 +112,7 @@
             // 
             // zahl5
             // 
-            this.zahl5.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.zahl5.BackColor = System.Drawing.Color.Blue;
             this.zahl5.Cursor = System.Windows.Forms.Cursors.No;
             this.zahl5.Font = new System.Drawing.Font("Arial Black", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.zahl5.Location = new System.Drawing.Point(488, 188);
@@ -125,7 +125,7 @@
             // 
             // zahl6
             // 
-            this.zahl6.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.zahl6.BackColor = System.Drawing.Color.Blue;
             this.zahl6.Cursor = System.Windows.Forms.Cursors.No;
             this.zahl6.Font = new System.Drawing.Font("Arial Black", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.zahl6.Location = new System.Drawing.Point(581, 188);
@@ -138,7 +138,7 @@
             // 
             // eingabe_zahl6
             // 
-            this.eingabe_zahl6.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.eingabe_zahl6.BackColor = System.Drawing.Color.Blue;
             this.eingabe_zahl6.Cursor = System.Windows.Forms.Cursors.Hand;
             this.eingabe_zahl6.Font = new System.Drawing.Font("Arial Black", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.eingabe_zahl6.Location = new System.Drawing.Point(581, 382);
@@ -150,7 +150,7 @@
             // 
             // eingabe_zahl5
             // 
-            this.eingabe_zahl5.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.eingabe_zahl5.BackColor = System.Drawing.Color.Blue;
             this.eingabe_zahl5.Cursor = System.Windows.Forms.Cursors.Hand;
             this.eingabe_zahl5.Font = new System.Drawing.Font("Arial Black", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.eingabe_zahl5.Location = new System.Drawing.Point(488, 382);
@@ -162,7 +162,7 @@
             // 
             // eingabe_zahl4
             // 
-            this.eingabe_zahl4.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.eingabe_zahl4.BackColor = System.Drawing.Color.Blue;
             this.eingabe_zahl4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.eingabe_zahl4.Font = new System.Drawing.Font("Arial Black", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.eingabe_zahl4.Location = new System.Drawing.Point(399, 382);
@@ -174,7 +174,7 @@
             // 
             // eingabe_zahl3
             // 
-            this.eingabe_zahl3.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.eingabe_zahl3.BackColor = System.Drawing.Color.Blue;
             this.eingabe_zahl3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.eingabe_zahl3.Font = new System.Drawing.Font("Arial Black", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.eingabe_zahl3.Location = new System.Drawing.Point(307, 382);
@@ -186,7 +186,7 @@
             // 
             // eingabe_zahl2
             // 
-            this.eingabe_zahl2.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.eingabe_zahl2.BackColor = System.Drawing.Color.Blue;
             this.eingabe_zahl2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.eingabe_zahl2.Font = new System.Drawing.Font("Arial Black", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.eingabe_zahl2.Location = new System.Drawing.Point(214, 382);
@@ -198,7 +198,7 @@
             // 
             // eingabe_zahl1
             // 
-            this.eingabe_zahl1.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.eingabe_zahl1.BackColor = System.Drawing.Color.Blue;
             this.eingabe_zahl1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.eingabe_zahl1.Font = new System.Drawing.Font("Arial Black", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.eingabe_zahl1.Location = new System.Drawing.Point(119, 382);
@@ -210,7 +210,7 @@
             // 
             // deintip
             // 
-            this.deintip.BackColor = System.Drawing.SystemColors.ButtonShadow;
+            this.deintip.BackColor = System.Drawing.Color.Blue;
             this.deintip.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("deintip.BackgroundImage")));
             this.deintip.Cursor = System.Windows.Forms.Cursors.No;
             this.deintip.Font = new System.Drawing.Font("Arial Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
